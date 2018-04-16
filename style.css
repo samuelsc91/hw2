@@ -1,0 +1,34 @@
+table {
+  border-style: solid;
+}
+
+th,
+td {
+  border-style: solid;
+}
+
+#outer {
+  background-color: #F58;
+  top: 20px;
+  width: 75%;
+  height: 50px;
+}
+
+#inner {
+  background-color: #9CF;
+  width: 75%;
+  position: relative;
+  top: 15px;
+  
+  /* Centered inner box with help from https://css-tricks.com/centering-css-complete-guide/ */
+  margin: auto;
+  text-align: center;
+}
+
+#even-row {
+  background-color: #FFEECC;
+}
+
+#odd-row {
+  background-color: #CCBB99;
+}
